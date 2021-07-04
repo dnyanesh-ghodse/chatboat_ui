@@ -82,7 +82,7 @@ body{
     height: 61%;
     margin-top: .5rem;
     margin-bottom: 2rem;
-    padding: 3rem 1rem;
+    padding: 3rem 1rem 1rem 1rem;
 }
 
 .questions{
@@ -145,7 +145,7 @@ body{
 
 .show{
     display: flex;
-    animation: moveup 1s ease-out;
+    animation: moveup .5s ease-out;
 }
 
 @keyframes moveup {
@@ -170,6 +170,11 @@ body{
         width: 100vw;
         margin: 0;
         height: 100vh;
+    }
+
+    .container{
+    top: 26%;
+
     }
 
     #open{
